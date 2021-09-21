@@ -1,8 +1,90 @@
+# Add specific files/folders related to your project
+
+
+
+
+# System Files
+.DS_Store
+Thumbs.db
+/local.properties
+
+# IDEs and editors
+.idea
+.gradle
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+proguard/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Log file
+*.log
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+
+# Android Studio captures folder
+captures/
+
+# lint
+/lint
+
+
+## Python
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+**/*_lastrun.py
+
+
+# Distribution / packaging
+.Python
+eggs/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+
+# PyBuilder
+.pybuilder/
+target/
+
+
+
+## Java
+
 # Compiled class file
 *.class
 
 # Log file
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # BlueJ files
 *.ctxt
@@ -21,3 +103,40 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+
+## JavaScript
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
